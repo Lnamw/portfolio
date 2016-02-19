@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "open sans Condensed";
+}
+
+header {
+	background-color: rgba(128,128,128, 0.5);
+	color: rgba(255, 255, 255, 1);
+	padding: 30px;
+
+}
+
+a.nav {	
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	font-size: 22px;
+	padding: 20px;
+	left;
+}
+
+div.nav {
+	padding-left: 75%;
+}
