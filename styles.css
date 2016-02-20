@@ -4,13 +4,14 @@
 	margin: 0;
 	padding: 0;
 	font-family: "open sans Condensed";
+	color: rgba(65, 68, 73, 1);
+	text-align: justify;
 }
 
 header {
 	background-color: rgba(128,128,128, 0.5);
 	color: rgba(255, 255, 255, 1);
 	padding: 30px;
-
 }
 
 a.nav {	
@@ -24,3 +25,69 @@ a.nav {
 div.nav {
 	padding-left: 75%;
 }
+
+.intro {
+	margin: 100px 20px;
+	text-align: center;
+
+}
+
+.intro h2 {
+	margin: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.intro img {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+}
+
+.sum {
+	background-color: rgba(211, 9, 96, 1);
+	padding: 50px 400px;
+	font-size: 20px;
+	margin-bottom: 100px
+}
+
+.exp {
+	background-color: rgba(128,128,128, 0.1);
+	display: inline-block;
+	border: solid rgba(65, 68, 73, 1) 1px ;
+	border-radius: 30px;
+	text-align: center;
+	width: 300px;
+
+}
+
+.edu {
+	background-color: rgba(128,128,128, 0.1);
+	display: inline-block;
+	border: solid rgba(65, 68, 73, 1) 1px ;
+	border-radius: 30px;
+	text-align: center;
+	width: 200px;
+	}
+	
+
+
+h3 {
+	text-align: center;
+	padding-bottom: 20px;
+} 
+
+ul {
+}
+
+
+
+
+
+
+
+
+
+
+
