@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "open sans Condensed";
+	color: rgba(65, 68, 73, 1);
+}
+
+
+.nav_bar {
+	background-color: rgba(128,128,128, 1);
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+}
+
+.nav {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+	float: right;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 40px 0px 0px;
+	font-size: 22px;
+}
+
+.intro {
+	background-color: rgba(211, 9, 96, 1);
+	text-align: center;
+	padding-top: 200px;
+}
+
+.intro h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.intro img {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+.sum {
+	background-color: rgba(211, 9, 96, 1);
+	font-size: 20px;
+	padding: 50px 300px;
+	text-align: center;
+}
+
+.sum::first-letter {
+	font-weight: bold;
+}
+
+.exp, .edu, .pi {
+	text-align: center;
+	background-color: rgba(128,128,128, 0.1);
+	float: left;
+	width: 33.33%;
+	margin-top: 100px;
+	border-top: solid rgba(65, 68, 73, 1) thin;
+	border-bottom: solid rgba(65, 68, 73, 1) thin;
+	padding: 50px 0px 50px 0px;
+}
+
+h3 {
+	padding-bottom: 40px;
+}
+
+ul {
+	list-style: none;
+}
+
+.contact {
+	background-color: rgba(128,128,128, 1);
+	margin: 500px 0px 0px 0px;
+	padding: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+.contact a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	padding: 0px 20px 0px 20px;
+}
+
+i {
+	padding: 0px 20px 0px 30px;
+}
+
+
+footer {
+	background-color: rgba(128,128,128, 0.5);
+	position: relative;
+}
+
+a:hover {
+	color: rgba(211, 9, 96, 1);
+}
