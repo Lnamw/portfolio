@@ -359,74 +359,133 @@ th {
   color: #414449;
   text-align: center; }
 
-.navigation_bar {
-  background-color: gray;
-  padding: 15px;
-  position: fixed;
-  width: 100%; }
-  .navigation_bar a {
-    text-decoration: none;
-    color: white;
-    float: right;
-    padding: 10px 10px 10px 10px;
-    margin: 0px 40px 0px 0px;
-    font-size: 22px; }
-
-.introduction {
-  background-color: #d30960;
-  text-align: center;
-  padding-top: 200px; }
-  .introduction h2 {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 40px; }
-  .introduction img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px; }
-
-.summury {
-  background-color: #d30960;
-  font-size: 20px;
-  padding: 50px 300px;
-  text-align: center; }
-  .summury::first-letter {
-    font-weight: bold; }
-
-.experience, .education, .personal-interest {
-  text-align: center;
-  background-color: rgba(128, 128, 128, 0.1);
-  float: left;
-  position: relative;
-  width: 33.33%;
-  margin-top: 100px;
-  border-top: solid #414449 thin;
-  border-bottom: solid #414449 thin;
-  padding: 50px 0px 50px 0px; }
-  .experience h3, .education h3, .personal-interest h3 {
-    padding-bottom: 40px; }
-  .experience ul, .education ul, .personal-interest ul {
-    list-style: none; }
-
-.contact {
-  background-color: gray;
-  margin: 500px 0px 0px 0px;
-  padding: 50px;
-  font-size: 30px;
-  text-align: center; }
-  .contact i {
-    padding: 0px 20px 0px 30px; }
-  .contact a {
-    color: white;
-    text-decoration: none;
-    padding: 0px 20px 0px 20px; }
-
-footer {
-  background-color: rgba(128, 128, 128, 0.5);
-  margin: 0px;
-  text-align: left; }
+a {
+  text-decoration: none;
+  color: white; }
 
 a:hover {
   color: #d30960; }
+
+ul {
+  list-style: none;
+  padding-left: 0px; }
+
+@media (max-width: 767px) {
+  .navigation_bar {
+    background-color: gray;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    text-align: center; }
+    .navigation_bar a {
+      padding: 0 20px;
+      font-size: 18px; }
+
+  .introduction {
+    background-color: #d30960;
+    padding-top: 30px; }
+    .introduction h2 {
+      font-size: 36px;
+      margin-bottom: 10px; }
+    .introduction img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px; }
+
+  .summury {
+    background-color: #d30960;
+    font-size: 20px;
+    padding: 0 20px;
+    margin: 0; }
+    .summury p {
+      margin: 0;
+      padding-bottom: 10px; }
+    .summury::first-letter {
+      font-weight: bold; }
+
+  .background {
+    background-color: rgba(128, 128, 128, 0.1);
+    border-top: solid #414449 thin;
+    border-bottom: solid #414449 thin; }
+
+  .contact {
+    background-color: gray;
+    font-size: 28px;
+    padding: 20px 0;
+    display: flex; }
+    .contact p {
+      flex: 1; }
+    .contact i {
+      padding-right: 10px; }
+
+  footer {
+    background-color: rgba(128, 128, 128, 0.5); }
+    footer p {
+      margin: 0px;
+      padding-left: 10px;
+      text-align: center; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: blue; } }
+@media (min-width: 992px) {
+  .navigation_bar {
+    background-color: gray;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    text-align: right; }
+    .navigation_bar a {
+      padding: 10px;
+      margin-right: 40px;
+      font-size: 22px; }
+
+  .introduction {
+    background-color: #d30960;
+    padding-top: 200px; }
+    .introduction h2 {
+      font-size: 36px;
+      margin-bottom: 40px; }
+    .introduction img {
+      border-radius: 50%;
+      width: 300px;
+      height: 300px; }
+
+  .summury {
+    background-color: #d30960;
+    font-size: 20px;
+    padding: 50px 300px; }
+    .summury::first-letter {
+      font-weight: bold; }
+
+  .background {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-top: solid #414449 thin;
+    border-bottom: solid #414449 thin;
+    margin-top: 200px;
+    padding: 40px; }
+    .background .experience, .background .education, .background .personal-interest {
+      flex: 1; }
+
+  .contact {
+    background-color: gray;
+    margin-top: 200px;
+    padding: 50px 100px;
+    font-size: 30px;
+    display: flex; }
+    .contact p {
+      flex: 1; }
+    .contact i {
+      padding-right: 10px; }
+
+  footer {
+    background-color: rgba(128, 128, 128, 0.5); }
+    footer p {
+      margin: 0px;
+      padding-left: 10px;
+      text-align: left; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: blue; } }
 
 /*# sourceMappingURL=styles.css.map */
