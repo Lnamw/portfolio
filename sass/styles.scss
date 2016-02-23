@@ -2,9 +2,11 @@
 
 @import 'global';
 
+@import 'variables';
 
 
-.nav_bar {
+
+.navigation_bar {
 	background-color: $highlight-dark-color;
 	padding: 15px;
 	position: fixed;
@@ -20,7 +22,7 @@
 	}
 }
 
-.intro {
+.introduction {
 	background-color: $highlight-color;
 	text-align: center;
 	padding-top: 200px;
@@ -40,18 +42,20 @@
 }
 
 
-.sum {
+.summury {
 	background-color: $highlight-color;
 	font-size: 20px;
 	padding: 50px 300px;
 	text-align: center;
-}
 
-.sum::first-letter {
+	&::first-letter {
 	font-weight: bold;
+	}
 }
 
-.exp, .edu, .pi {
+
+
+.experience, .education, .personal-interest {
 	text-align: center;
 	background-color: rgba(128,128,128, 0.1);
 	float: left;
@@ -79,6 +83,10 @@
 	font-size: 30px;
 	text-align: center;
 
+	i {
+		padding: 0px 20px 0px 30px;
+	}
+
 	 a {
 	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
@@ -87,9 +95,6 @@
 }
 
 
-i {
-	padding: 0px 20px 0px 30px;
-}
 
 
 footer {

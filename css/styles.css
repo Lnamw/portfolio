@@ -359,12 +359,12 @@ th {
   color: #414449;
   text-align: center; }
 
-.nav_bar {
+.navigation_bar {
   background-color: gray;
   padding: 15px;
   position: fixed;
   width: 100%; }
-  .nav_bar a {
+  .navigation_bar a {
     text-decoration: none;
     color: white;
     float: right;
@@ -372,29 +372,28 @@ th {
     margin: 0px 40px 0px 0px;
     font-size: 22px; }
 
-.intro {
+.introduction {
   background-color: #d30960;
   text-align: center;
   padding-top: 200px; }
-  .intro h2 {
+  .introduction h2 {
     font-size: 36px;
     text-align: center;
     margin-bottom: 40px; }
-  .intro img {
+  .introduction img {
     border-radius: 50%;
     width: 300px;
     height: 300px; }
 
-.sum {
+.summury {
   background-color: #d30960;
   font-size: 20px;
   padding: 50px 300px;
   text-align: center; }
+  .summury::first-letter {
+    font-weight: bold; }
 
-.sum::first-letter {
-  font-weight: bold; }
-
-.exp, .edu, .pi {
+.experience, .education, .personal-interest {
   text-align: center;
   background-color: rgba(128, 128, 128, 0.1);
   float: left;
@@ -404,9 +403,9 @@ th {
   border-top: solid #414449 thin;
   border-bottom: solid #414449 thin;
   padding: 50px 0px 50px 0px; }
-  .exp h3, .edu h3, .pi h3 {
+  .experience h3, .education h3, .personal-interest h3 {
     padding-bottom: 40px; }
-  .exp ul, .edu ul, .pi ul {
+  .experience ul, .education ul, .personal-interest ul {
     list-style: none; }
 
 .contact {
@@ -415,13 +414,12 @@ th {
   padding: 50px;
   font-size: 30px;
   text-align: center; }
+  .contact i {
+    padding: 0px 20px 0px 30px; }
   .contact a {
     color: white;
     text-decoration: none;
     padding: 0px 20px 0px 20px; }
-
-i {
-  padding: 0px 20px 0px 30px; }
 
 footer {
   background-color: rgba(128, 128, 128, 0.5);
