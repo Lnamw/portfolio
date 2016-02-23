@@ -1,5 +1,90 @@
 @media (min-width: 768px) and (max-width: 991px) {
-	body {
-		background-color: blue;
-	}	
+
+
+	
+	.navigation_bar {
+		background-color: $highlight-dark-color;
+		padding: 15px;
+		position: fixed;
+		width: 100%;
+		text-align: right;
+
+		a {
+		padding: 10px;
+		margin-right: 40px;
+		font-size: 22px;
+		}
+	}
+
+	.introduction {
+		background-color: $highlight-color;
+		padding-top: 50px;
+		
+		h2 {
+		font-size: 36px;
+		margin-bottom: 30px;
+		}
+
+		img {
+		border-radius: 50%;
+		width: 300px;
+		height: 300px;
+		}
+	}
+
+	.summury {
+		background-color: $highlight-color;
+		font-size: 20px;
+		padding: 10px 100px;
+
+		&::first-letter {
+		font-weight: bold;
+		}
+	}
+
+	.background {
+		display: flex;
+		background-color: $grey-opacity01;
+		border-top: solid $font-color-darkgrey thin;
+		border-bottom: solid $font-color-darkgrey thin;
+		padding: 10px;
+
+		.experience, .personal-interest {
+			flex-grow: 1;
+		}
+		.education {
+		flex-grow: 3;
+		}
+			
+		span {
+			white-space: nowrap;
+			}
+		
+	}
+
+	.contact {
+		background-color: $highlight-dark-color;
+		padding: 40px 100px;
+		font-size: 30px;
+		display: flex;
+
+		p {
+			flex: 1;
+		}
+
+		i {
+			padding-right: 10px;
+		}		
+	}
+
+	footer {
+		background-color: $grey-opacity05;
+
+		p {
+		margin: 0px;
+		padding-left: 10px;
+		text-align: left;
+		}
+	}
 }
+

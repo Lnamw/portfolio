@@ -425,8 +425,64 @@ ul {
       padding-left: 10px;
       text-align: center; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  body {
-    background-color: blue; } }
+  .navigation_bar {
+    background-color: gray;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    text-align: right; }
+    .navigation_bar a {
+      padding: 10px;
+      margin-right: 40px;
+      font-size: 22px; }
+
+  .introduction {
+    background-color: #d30960;
+    padding-top: 50px; }
+    .introduction h2 {
+      font-size: 36px;
+      margin-bottom: 30px; }
+    .introduction img {
+      border-radius: 50%;
+      width: 300px;
+      height: 300px; }
+
+  .summury {
+    background-color: #d30960;
+    font-size: 20px;
+    padding: 10px 100px; }
+    .summury::first-letter {
+      font-weight: bold; }
+
+  .background {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-top: solid #414449 thin;
+    border-bottom: solid #414449 thin;
+    padding: 10px; }
+    .background .experience, .background .personal-interest {
+      flex-grow: 1; }
+    .background .education {
+      flex-grow: 3; }
+    .background span {
+      white-space: nowrap; }
+
+  .contact {
+    background-color: gray;
+    padding: 40px 100px;
+    font-size: 30px;
+    display: flex; }
+    .contact p {
+      flex: 1; }
+    .contact i {
+      padding-right: 10px; }
+
+  footer {
+    background-color: rgba(128, 128, 128, 0.5); }
+    footer p {
+      margin: 0px;
+      padding-left: 10px;
+      text-align: left; } }
 @media (min-width: 992px) {
   .navigation_bar {
     background-color: gray;
@@ -484,8 +540,5 @@ ul {
       margin: 0px;
       padding-left: 10px;
       text-align: left; } }
-@media (min-width: 768px) and (max-width: 991px) {
-  body {
-    background-color: blue; } }
 
 /*# sourceMappingURL=styles.css.map */
